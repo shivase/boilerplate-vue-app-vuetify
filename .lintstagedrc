@@ -1,0 +1,6 @@
+{
+  "*.{ts,js,jsx,tsx,vue}": [
+    "yarn prettier --write",
+    "yarn eslint --max-warnings=0 --fix"
+  ]
+}
