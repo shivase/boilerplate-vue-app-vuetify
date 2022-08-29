@@ -10,7 +10,7 @@ export default defineConfig({
   publicDir: 'public',
   build: {
     target: 'es2019',
-    outDir: '../../dist',
+    outDir: 'dist',
     emptyOutDir: false,
     sourcemap: true,
     rollupOptions: {
